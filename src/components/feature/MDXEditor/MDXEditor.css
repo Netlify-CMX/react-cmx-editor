@@ -1,0 +1,8 @@
+.mdx-editor {
+  width: 100%;
+}
+
+.mdx-editor__textarea {
+  width: 100%;
+  box-sizing: border-box;
+}

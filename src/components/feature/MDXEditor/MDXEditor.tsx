@@ -7,9 +7,12 @@ export interface MDXEditorProps {
 
 const MDXEditor = (props: MDXEditorProps) => {
   return (
-  <>
-    <textarea value={props.text}></textarea>
-  </>
+  <div className="mdx-editor">
+    <div className="mdx-editor__menubar">
+
+    </div>
+    <textarea className="mdx-editor__textarea" value={props.text}></textarea>
+  </div>
   )
 };
 
