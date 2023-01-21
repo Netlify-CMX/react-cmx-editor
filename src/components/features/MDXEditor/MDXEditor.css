@@ -2,9 +2,21 @@
   width: 100%;
   border-radius: 6px;
   border: 1px solid #E9ECEF;
+  padding: 0 8px 8px 8px;
+  box-sizing: border-box;
+  height: 100%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
 }
 
 .mdx-editor__textarea {
   width: 100%;
   box-sizing: border-box;
+}
+
+.mdx-line-separator{
+  margin: 0 0 2px 0;
+  padding: 0;
+  opacity: 0.3;
 }
