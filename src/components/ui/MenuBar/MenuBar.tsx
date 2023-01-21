@@ -1,5 +1,5 @@
-import React, { Children } from "react";
-
+import React from "react";
+import "./MenuBar.css";
 export interface MenuBarProps{
   children: React.ReactNode;
 }
