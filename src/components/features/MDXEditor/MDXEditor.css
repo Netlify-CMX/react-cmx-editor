@@ -1,5 +1,7 @@
 .mdx-editor {
   width: 100%;
+  border-radius: 6px;
+  border: 1px solid #E9ECEF;
 }
 
 .mdx-editor__textarea {
