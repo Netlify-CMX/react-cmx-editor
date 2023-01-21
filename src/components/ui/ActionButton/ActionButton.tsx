@@ -3,7 +3,7 @@ import "./ActionButton.css";
 
 export interface ButtonProps {
   label: string;
-  children ?: React.ReactNode;
+  children : React.ReactNode;
 }
 
 const ActionButton = (props: ButtonProps) => {
